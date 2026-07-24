@@ -1,8 +1,25 @@
 aid: busy-ming-group
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/busy-ming-group.png
 name: Busy Ming Group
-description: 'Busy Ming Group is a company surfaced as a portfolio company of hongshan and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Busy Ming Group (Hunan Mingming Busy Commercial Chain Co., Ltd. / 湖南鸣鸣很忙商业连锁股份有限公司)
+  is a mass-market snack retail chain operator headquartered in Changsha, Hunan, China,
+  and a consumer-sector portfolio company of HongShan (formerly Sequoia Capital China).
+  It operates two discount snack store brands — Snacks Are Busy (零食很忙, founded 2017)
+  and Zhao Yiming Snacks (赵一鸣零食, founded 2019) — which combined into a network of more
+  than 21,000 retail locations, heavily concentrated in county-level cities and townships.
+  The group publishes no public developer API; this profile captures the company''s
+  corporate, franchising, and investor-relations web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/busy-ming-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Retail
+- Snacks
+- Food and Beverage
+- China
+- Franchise
 apis: []
+common:
+- type: Website
+  url: https://www.busyming.com
+- type: About
+  url: https://www.busyming.com/about.html
+- type: Blog
+  url: https://www.busyming.com/news.html
+- type: Support
+  url: https://www.busyming.com/contact.html
+- type: InvestorRelations
+  url: https://www.busyming.com/tzgx.html
+- type: Franchising
+  url: https://www.busyming.com/zsjm.html
+- type: SocialResponsibility
+  url: https://www.busyming.com/shzr.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
